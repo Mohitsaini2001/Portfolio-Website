@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18,18,62);
+}
+nav ul{
+   display: flex;
+   justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    justify-content: center;
+    margin: 0px 23px;
+}
+
+
+nav ul li a{
+ text-decoration: none;
+    color: whitesmoke;
+}
+nav ul li a:hover{
+color: royalblue;
+font-size: 1.03rem;
+cursor: pointer;
+
+}
+
+
+
+.left{
+    font-size: 1rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+}
+.firstSection >div{
+    width: 30%;
+    justify-content: space-around;
+    margin: 80px 0;
+    letter-spacing: 5px;
+    align-items: center;
+}
+
+.leftSection{
+    
+    font-size: 2.5rem;
+
+  
+}
+.rightSection img{
+    width: 80%;
+    margin: 45px 0;
+
+   
+    
+}
+.purple{
+    color: rgb(151, 151, 189);
+    
+}
+
+#element{
+    color: rgb(151, 151, 189);
+}
+
+.secondSection{
+    max-width: 80vw;
+ margin: auto;
+ height: 80vh;
+    
+}
+
+main hr{
+
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.text-gray{
+    color: grey;
+}
+.secondSection .box{
+    background: wheat;
+    width: 76vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 3px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top{
+width: 93px;
+position: relative;
+top: -32px;
+left: -44px;
+}
+
+/* .vertical-title{
+position: relative;
+top: 85px;
+width: 150px;
+margin-top: 0px;
+} */
+.vertical-desc{
+
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 140px;
+font-size: 10px;
+margin-top: 70px;
+
+
+}
+.footer-first{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    width:100%;
+    background: black;
+    color: white;
+    padding:20px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+   padding: 12px;
+   background: #1e2167;
+   color: white;
+   border: 2px solid white;
+   border-radius: 6px;
+   font-size: 20px;
+cursor: pointer;
+margin-top: 40px;
+}
+
+.leftSection.buttons{
+padding: 60px 0;
+}
+
+.btn a{
+    color: white;
+   text-decoration: none;
+   
+}
+
